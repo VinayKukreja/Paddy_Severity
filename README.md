@@ -1,12 +1,5 @@
-"""
-Paddy Leaf Disease Severity Classification — Reproduction Code
+Paddy Leaf Disease Severity Classification
 ================================================================
-Reproduces the methodology of:
-    Lamba S, Kukreja V, Rashid J, Gadekallu TR, Kim J, Baliyan A, Gupta D,
-    Saini S (2023). "A novel fine-tuned deep-learning-based multi-class
-    classifier for severity of paddy leaf diseases."
-    Front. Plant Sci. 14:1234067. doi: 10.3389/fpls.2023.1234067
-
 Pipeline (paper section references in comments throughout):
   1. Dataset collection: primary + secondary (Mendeley, GitHub, UCI/Kaggle) -> Sec 3.1
   2. Pre-processing: standardization, normalization, rescaling             -> Sec 3.1.3
@@ -36,4 +29,4 @@ Architecture notes:
 
 Requirements:
     pip install tensorflow opencv-python scikit-learn pandas matplotlib tqdm
-"""
+
